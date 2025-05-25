@@ -3,3 +3,8 @@
 - Studiare Quantum
 - Finire esercizi OpenMP
 - Ripasso NLA
+
+====== 2025-05-25 ======
+- Studiare Quantum
+- Finire esercizi OpenMP
+- Ripasso NLA
