@@ -8,3 +8,8 @@
 - Studiare Quantum
 - Finire esercizi OpenMP
 - Ripasso NLA
+
+====== 2025-05-26 ======
+- finire Step 2 di Sweng
+- fare un esercitazione di NA
+- fare AMSC- rivedere pensare al prossimo post di LINKLDN
