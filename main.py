@@ -13,10 +13,11 @@ commit_message = f"Update attività: {today}"
 
 # === ATTIVITÀ DA AGGIUNGERE ===
 attività = [
-    "- ciao sono un attivita' nuovissima",
-    "- TODO 1 ",
-    "- TODO 2",
-    "- TODO 3"
+    "- ciao sono un attivita' fatta alle 5 di mattina,
+    "- mangia ",
+    "- allenati",
+    "- dormi",
+    "- ripeti"
 ]
 
 # === CREA O AGGIORNA IL FILE ===
