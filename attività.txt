@@ -19,3 +19,9 @@
 - fare un esercitazione 
 - fare XYZ
 - rivedere GHS
+
+====== 2025-05-28 ======
+- ciao sono un attivita' nuovissima
+- TODO 1 
+- TODO 2
+- TODO 3
