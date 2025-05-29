@@ -4,7 +4,7 @@ import subprocess
 
 # === CONFIGURAZIONE ===
 repo_path = os.path.dirname(os.path.abspath(__file__))
-file_name = "attività.txt"
+file_name = "activities.txt"
 file_path = os.path.join(repo_path, file_name)
 
 # === DATI DI OGGI ===
