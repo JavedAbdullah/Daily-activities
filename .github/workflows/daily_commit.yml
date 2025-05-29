@@ -22,8 +22,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name "GitHub Bot"
-          git config --global user.email "bot@example.com"
+          git config --global user.name "JavedAbdullah"
+          git config --global user.email "jave.abdullah@gmail.com"
           git add .
           git commit -m "aggiornamento automatico giornaliero" || echo "Nessun cambiamento da committare"
           git push
