@@ -1,0 +1,31 @@
+daily_commit.ym
+
+name: Daily Commit
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # 05:00 italiane durante l'ora legale (CEST = UTC+2)
+  workflow_dispatch: # per farlo partire manualmente
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.11
+
+      - name: Run Python script
+        run: python main.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "JavedAbdullah"
+          git config --global user.email "jave.abdullah@gmail.com"
+          git add .
+          git commit -m "aggiornamento automatico giornaliero" || echo "Nessun cambiamento da committare"
+          git push
